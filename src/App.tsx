@@ -21,15 +21,15 @@ export default function App() {
           className="mb-12"
         >
           <div className="mb-4 flex justify-center">
-            <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-white/5 border border-white/10">
-              <Smartphone className="h-6 w-6 text-brand-green" />
+            <div className="flex h-20 w-20 items-center justify-center rounded-xl bg-white/5 border border-white/10">
+              <img src="/redsealogo.png" alt="Redsea Mart" className="h-20 w-20" />
             </div>
           </div>
           <h1 className="logo-gradient text-6xl font-extrabold tracking-[-0.04em] sm:text-[84px] leading-tight mb-2">
             Redsea Mart
           </h1>
           <p className="text-[14px] font-semibold uppercase tracking-[0.4em] text-brand-green opacity-90 mb-[60px]">
-            Essential, Elevated.
+            For Ethiopians by Ethiopians
           </p>
         </motion.div>
 
@@ -91,7 +91,7 @@ export default function App() {
         transition={{ duration: 1, delay: 0.5 }}
         className="absolute bottom-10 left-0 right-0 text-center text-[12px] font-normal text-white/60 tracking-[0.02em]"
       >
-        &copy; {new Date().getFullYear()} Redsea Mart Inc. &bull; Privacy Policy &bull; Terms of Service
+        &copy; {new Date().getFullYear()} Redsea Mart Inc. &bull; All rights reserved.
       </motion.footer>
     </div>
   );
